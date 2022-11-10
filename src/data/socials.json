@@ -1,0 +1,14 @@
+[
+    {
+        "label": "reach@amii.ir",
+        "isEmail": true,
+        "value": "reach@amii.ir",
+        "icon": "AtSign"
+    },
+    {
+        "label": "@AmyrAhmady",
+        "isEmail": false,
+        "value": "https://github.com/AmyrAhmady/",
+        "icon": "GitHub"
+    }
+]

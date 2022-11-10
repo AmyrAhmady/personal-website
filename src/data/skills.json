@@ -1,0 +1,57 @@
+[
+    {
+        "category": "Spoken Languages",
+        "items": [
+            "Persian/Farsi",
+            "English"
+        ]
+    },
+    {
+        "category": "Programming Languages",
+        "items": [
+            "JavaScript/TypeScript",
+            "C/C++",
+            "C#",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "category": "Frameworks and Development Tools",
+        "items": [
+            "React",
+            "React-Native",
+            "Git",
+            "GitHub",
+            "Express.js",
+            "Android Studio",
+            "Xcode",
+            "Node.js"
+        ]
+    },
+    {
+        "category": "Operating Systems",
+        "items": [
+            "Windows",
+            "MacOS",
+            "Ubuntu"
+        ]
+    },
+    {
+        "category": "Databases",
+        "items": [
+            "MongoDB",
+            "MySQL",
+            "PostgreSQL",
+            "SQLite"
+        ]
+    },
+    {
+        "category": "Others",
+        "items": [
+            "CI/CD",
+            "Command Line",
+            "Reverse Engineering"
+        ]
+    }
+]

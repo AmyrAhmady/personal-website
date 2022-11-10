@@ -1,0 +1,32 @@
+[
+    {
+        "title": "open.mp",
+        "description": "A multiplayer mod for Grand Theft Auto: San Andreas that is fully backwards compatible with San Andreas Multiplayer.",
+        "url": "https://open.mp/"
+    },
+    {
+        "title": "samp-node",
+        "description": "A plugin/extension to San Andreas Multiplayer modification for the game GTA: San Andreas, written in C++, which people can use to write the scripts in JS/TS; It's a tool that embed Node.JS into server application and creates multiple Node environments.",
+        "url": "https://github.com/AmyrAhmady/samp-node"
+    },
+    {
+        "title": "small3d-cpp",
+        "description": "A very small renderer made in C++",
+        "url": "https://github.com/AmyrAhmady/small3d-cpp"
+    },
+    {
+        "title": "omp-models",
+        "description": "A website using Next.js, React-Native-Web, and Three.js to render models exported from a game and stored data in a smaller version in a JSON file",
+        "url": "http://models.open.mp/"
+    },
+    {
+        "title": "rwexporter",
+        "description": "A cli tool to export Dff/TXD data from the game GTA: San Andreas and convert them into a smaller file with needed data only in a JSON or a binary file",
+        "url": "https://github.com/AmyrAhmady/rwexporter"
+    },
+    {
+        "title": "FarsiType",
+        "description": "A simple library for Farsi/Arabic strings written in C++",
+        "url": "https://github.com/AmyrAhmady/FarsiType"
+    }
+]
