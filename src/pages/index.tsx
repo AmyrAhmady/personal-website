@@ -25,9 +25,16 @@ const Home = () => {
       </Row>
       <a
         style={{}}
+        href="javascript:window.print()"
+      >
+        Print
+      </a>
+      &nbsp;|&nbsp;
+      <a
+        style={{}}
         href="/files/amir-ahmady-cv.pdf"
       >
-        Download as PDF
+        Download pre-made PDF
       </a>
       <hr style={separatorStyle} />
       <Row style={rowMargin}>
@@ -82,7 +89,7 @@ const Home = () => {
 
       <Row style={rowMargin}>
         <Col>
-          <h2>About Me</h2>
+          <h2>Personal</h2>
         </Col>
       </Row>
       <Row style={rowMargin}>
@@ -95,18 +102,16 @@ const Home = () => {
       <Row style={rowMargin}>
         <Col style={{ textAlign: 'center' }}>
           <span style={{ display: "inline-block !important", marginRight: '1rem !important' }}>
-            Created with
-            {" "}
-            ❤️
-            &nbsp;by&nbsp;
             <a
               style={linkStyle}
               href="https://amii.ir/"
               rel="nofollow noreferrer"
               target="_blank"
             >
-              Amyr (iAmir) Ahmady
+              © Amyr (iAmir) Ahmady
             </a>
+            &nbsp;|&nbsp;
+            2022
             &nbsp;|&nbsp;
             <a
               style={linkStyle}
