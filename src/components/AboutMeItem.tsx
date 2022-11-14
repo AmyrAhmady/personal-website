@@ -8,10 +8,10 @@ interface IAboutMeItemProps {
 const AboutMeItem = (props: IAboutMeItemProps) => {
   return (
     <li style={listItemStyle}>
-      <span>
+      {/* <span>
         <span style={nameStyle}>{props.title}</span>
       </span>
-      <br />
+      <br /> */}
       <span>
         <span style={descriptionStyle}>{props.description}</span>
       </span>
