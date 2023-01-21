@@ -2,7 +2,7 @@
     {
         "title": "open.mp",
         "description": "A multiplayer mod for Grand Theft Auto: San Andreas that is fully backwards compatible with San Andreas Multiplayer.",
-        "url": "https://open.mp/"
+        "url": "https://github.com/openmultiplayer/"
     },
     {
         "title": "samp-node",
@@ -17,7 +17,7 @@
     {
         "title": "omp-models",
         "description": "A website using Next.js, React-Native-Web, and Three.js to render models exported from a game and stored data in a smaller version in a JSON file",
-        "url": "http://models.open.mp/"
+        "url": "https://github.com/AmyrAhmady/openmp-models"
     },
     {
         "title": "rwexporter",
