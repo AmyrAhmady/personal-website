@@ -20,7 +20,7 @@ const Education = (props: IEducationProps) => {
       <span>{props.degree}</span>
     </li>
   );
-}
+};
 
 const listItemStyle: React.CSSProperties = {
   width: "100%",
@@ -34,7 +34,7 @@ const nameStyle: React.CSSProperties = {
 const durationStyle: React.CSSProperties = {
   float: "right",
   fontSize: "0.8em",
-  fontWeight: 'bold'
+  fontWeight: "bold",
 };
 
 export default Education;

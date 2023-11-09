@@ -16,6 +16,6 @@ const Col = (props: JSX.IntrinsicElements["div"]) => {
       {props.children}
     </div>
   );
-}
+};
 
 export default Col;

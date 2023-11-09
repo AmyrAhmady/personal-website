@@ -7,18 +7,12 @@ interface IProjectProps {
 }
 
 const Project = (props: IProjectProps) => {
-
   if (props.url) {
     return (
       <li style={listItemStyle}>
         <span>
           <span style={nameStyle}>
-            <a
-              target="blank"
-              rel="nofollow"
-              href={props.url}
-              style={linkStyle}
-            >
+            <a target="blank" rel="nofollow" href={props.url} style={linkStyle}>
               {props.title}
             </a>
           </span>
@@ -42,7 +36,7 @@ const Project = (props: IProjectProps) => {
       </span>
     </li>
   );
-}
+};
 
 const listItemStyle: React.CSSProperties = {
   width: "100%",

@@ -7,13 +7,11 @@ const AboutMeContainer = () => {
     listStyleType: "circle",
   };
 
-  const othersList = aboutmelist.map((entry, index) => <AboutMeItem {...entry} key={"about-me-item-" + index} />);
+  const othersList = aboutmelist.map((entry, index) => (
+    <AboutMeItem {...entry} key={"about-me-item-" + index} />
+  ));
 
-  return (
-    <ul style={listStyle}>
-      {othersList}
-    </ul>
-  );
-}
+  return <ul style={listStyle}>{othersList}</ul>;
+};
 
 export default AboutMeContainer;

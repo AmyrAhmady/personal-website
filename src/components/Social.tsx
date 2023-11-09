@@ -1,5 +1,5 @@
 import React from "react";
-import * as FIcon from 'react-feather';
+import * as FIcon from "react-feather";
 
 interface ISocialProps {
   label: string;
@@ -19,18 +19,17 @@ const Social = (props: ISocialProps) => {
       <Icon size={18} />
       &nbsp;{props.label}
     </a>
-  )
-
-}
+  );
+};
 
 const style: React.CSSProperties = {
   textDecoration: "none",
   color: "#3173bb",
   margin: "0px",
   padding: "0px",
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center'
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
 };
 
 export default Social;

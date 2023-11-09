@@ -7,13 +7,11 @@ const JobsContainer = () => {
     listStyleType: "circle",
   };
 
-  const jobsList = jobs.map((job, index) => <Job {...job} key={"job-item-" + index} />);
+  const jobsList = jobs.map((job, index) => (
+    <Job {...job} key={"job-item-" + index} />
+  ));
 
-  return (
-    <ul style={listStyle}>
-      {jobsList}
-    </ul>
-  );
-}
+  return <ul style={listStyle}>{jobsList}</ul>;
+};
 
 export default JobsContainer;

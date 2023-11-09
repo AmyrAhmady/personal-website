@@ -3,12 +3,12 @@ import { v4 as UUIDv4 } from "uuid";
 import introduction from "../data/introduction.json";
 
 const IntroductionContainer = () => {
-  const descriptionList = introduction.descriptions.map((item) => <li key={UUIDv4()}>{item}</li>);
+  const descriptionList = introduction.descriptions.map((item) => (
+    <li key={UUIDv4()}>{item}</li>
+  ));
 
-  return (
-    <ul style={descriptionStyle}>{descriptionList}</ul>
-  );
-}
+  return <ul style={descriptionStyle}>{descriptionList}</ul>;
+};
 
 const descriptionStyle: React.CSSProperties = {
   listStyleType: "disc",

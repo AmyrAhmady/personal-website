@@ -9,16 +9,12 @@ const SocialsContainer = () => {
     </span>
   ));
 
-  return (
-    <>
-      {socialsList}
-    </>
-  );
-}
+  return <>{socialsList}</>;
+};
 
 const itemContainerStyle: React.CSSProperties = {
   marginRight: "1rem",
-  display: "inline-block !important"
+  display: "inline-block !important",
 };
 
 export default SocialsContainer;

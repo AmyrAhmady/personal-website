@@ -1,9 +1,6 @@
 import Col from "./Col";
+import Container from "./Container";
 import Row from "./Row";
-import Container from "./Container"
 
-export {
-  Col,
-  Row,
-  Container
-}
+export { Col, Container, Row };
+

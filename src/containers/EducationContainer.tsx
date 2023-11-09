@@ -7,13 +7,11 @@ const EducationContainer = () => {
     listStyleType: "circle",
   };
 
-  const educationsList = educations.map((education, index) => <Education {...education} key={"education-item-" + index} />);
+  const educationsList = educations.map((education, index) => (
+    <Education {...education} key={"education-item-" + index} />
+  ));
 
-  return (
-    <ul style={listStyle}>
-      {educationsList}
-    </ul>
-  );
-}
+  return <ul style={listStyle}>{educationsList}</ul>;
+};
 
 export default EducationContainer;

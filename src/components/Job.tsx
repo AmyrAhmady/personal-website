@@ -10,10 +10,12 @@ interface IJobProps {
   position: string;
   duration: string;
   descriptions: string[];
-};
+}
 
 const Job = (props: IJobProps) => {
-  const descriptionsList = props.descriptions.map((item) => <li key={UUIDv4()}>{item}</li>);
+  const descriptionsList = props.descriptions.map((item) => (
+    <li key={UUIDv4()}>{item}</li>
+  ));
 
   return (
     <li style={listItemStyle}>
@@ -40,7 +42,7 @@ const Job = (props: IJobProps) => {
       <ul style={descriptionStyle}>{descriptionsList}</ul>
     </li>
   );
-}
+};
 
 const listItemStyle: React.CSSProperties = {
   width: "100%",
@@ -63,7 +65,7 @@ const positionStyle: React.CSSProperties = {
 const durationStyle: React.CSSProperties = {
   float: "right",
   fontSize: "0.8em",
-  fontWeight: 'bold'
+  fontWeight: "bold",
 };
 
 const descriptionStyle: React.CSSProperties = {

@@ -3,12 +3,12 @@ import { v4 as UUIDv4 } from "uuid";
 
 interface ISkillProps {
   category: string;
-  items: string[]
+  items: string[];
 }
 
 const Skill = (props: ISkillProps) => {
   const skillItems = props.items.map((name) => (
-    <span style={{ marginTop: '5px' }} key={UUIDv4()}>
+    <span style={{ marginTop: "5px" }} key={UUIDv4()}>
       <div style={skillItemStyle}>{name}</div>
       &nbsp;
     </span>
@@ -17,12 +17,12 @@ const Skill = (props: ISkillProps) => {
   return (
     <li style={listItemStyle}>
       <span style={skillTypeStyle}>{props.category}:&nbsp;</span>
-      <span style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+      <span style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
         {skillItems}
       </span>
     </li>
   );
-}
+};
 
 const listItemStyle: React.CSSProperties = {
   width: "100%",

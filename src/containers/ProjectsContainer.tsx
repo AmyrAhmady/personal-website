@@ -7,13 +7,11 @@ const ProjectsContainer = () => {
     listStyleType: "circle",
   };
 
-  const projectsList = projects.map((project, index) => <Project {...project} key={"project-item-" + index} />);
+  const projectsList = projects.map((project, index) => (
+    <Project {...project} key={"project-item-" + index} />
+  ));
 
-  return (
-    <ul style={listStyle}>
-      {projectsList}
-    </ul>
-  );
-}
+  return <ul style={listStyle}>{projectsList}</ul>;
+};
 
 export default ProjectsContainer;

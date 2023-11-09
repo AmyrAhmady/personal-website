@@ -17,7 +17,7 @@ const AboutMeItem = (props: IAboutMeItemProps) => {
       </span>
     </li>
   );
-}
+};
 
 const listItemStyle: React.CSSProperties = {
   width: "100%",
