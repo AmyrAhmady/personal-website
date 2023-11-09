@@ -1,28 +1,41 @@
 [
-    {
-        "employer": {
-            "name": "Dorreh Co.",
-            "location": "Remote",
-            "url": "/#"
-        },
-        "position": "Full Stack Mobile Developer",
-        "duration": "Nov 2020 - September 2022",
-        "descriptions": [
-            "Shortly after my previous job and due to the COVID-19 crisis I was looking more into remote jobs with working hours flexibility. So I started working for Dorreh Co. as a React-Native developer at first. However, I soon had to pick up some back-end parts of the projects. It helped me feel more comfortable knowing how I can structure the entire stack to suit me better on the mobile side.",
-            "During these times I met a lot of co-workers with good experience and I learned a lot of from them in every way possible. The more I was being put to work on newer projects the newer techniques I was able to adapt and learn."
-        ]
+  {
+    "employer": {
+      "name": "PGS ltd.",
+      "location": "Remote",
+      "url": "https://pgs.limited/"
     },
-    {
-        "employer": {
-            "name": "Agret Co.",
-            "location": "Babol, Mazandaran, Iran",
-            "url": "https://agret.ir/"
-        },
-        "position": "React-Native Developer | Desktop App Developer | Web development",
-        "duration": "August 2017 - October 2020",
-        "descriptions": [
-            "Started working for Agret Co. as my first professional job after finishing high school, hired as a C# & VB.Net developer at first but switched to mobile department when they were in need of a React-Native developer.",
-            "In times of need I had to make front-ends and write back-ends in JavaScript/TypeScript, React for the UI and Express.JS with MongoDB on the server."
-        ]
-    }
+    "position": "C++ Developer, Reverse Engineer",
+    "duration": "Dec 2022 - Present",
+    "descriptions": [
+      "I joined PGS Ltd. in late December 2022 as a C++ develoepr and reverse engineer to be a help in their currently live products, which are mostly related gaming.",
+      "PGS Ltd. is a copmany where I found myself working on project I loved the most before joining the company, related to games I spent a lot of time when I was younger and made an important part of my childhood. They have a lot of customers, players, and users so all of their products must be worked on professionally. And I'm learning a lot during my time in here."
+    ]
+  },
+  {
+    "employer": {
+      "name": "Dorreh Co.",
+      "location": "Remote",
+      "url": "/#"
+    },
+    "position": "Full Stack Mobile Developer",
+    "duration": "Nov 2020 - September 2022",
+    "descriptions": [
+      "Shortly after my previous job and due to the COVID-19 crisis I was looking more into remote jobs with working hours flexibility. So I started working for Dorreh Co. as a React-Native developer at first. However, I soon had to pick up some back-end parts of the projects. It helped me feel more comfortable knowing how I can structure the entire stack to suit me better on the mobile side.",
+      "During these times I met a lot of co-workers with good experience and I learned a lot of from them in every way possible. The more I was being put to work on newer projects the newer techniques I was able to adapt and learn."
+    ]
+  },
+  {
+    "employer": {
+      "name": "Agret Co.",
+      "location": "Babol, Mazandaran, Iran",
+      "url": "https://agret.ir/"
+    },
+    "position": "React-Native Developer, Desktop App Developer, Web development",
+    "duration": "August 2017 - October 2020",
+    "descriptions": [
+      "Started working for Agret Co. as my first professional job after finishing high school, hired as a C# & VB.Net developer at first but switched to mobile department when they were in need of a React-Native developer.",
+      "In times of need I had to make front-ends and write back-ends in JavaScript/TypeScript, React for the UI and Express.JS with MongoDB on the server."
+    ]
+  }
 ]
