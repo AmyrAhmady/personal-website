@@ -1,14 +1,15 @@
 [
   {
     "name": "Amol University of Special Modern Technologies",
+    "url": "https://english.ausmt.ac.ir/",
     "location": "Amol, Mazandaran, Iran",
-    "duration": "2018 - present",
-    "degree": "Studying Electronic Engineering"
+    "duration": "2018 – Present",
+    "degree": "Bachelor’s in Electronic Engineering, Master’s in Telecommunication Networks."
   },
   {
-    "name": "National Organization for Development of Exceptional Talents",
+    "name": "National Organization for Development of Exceptional Talents (NODET)",
     "url": "https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents",
     "location": "Babol, Mazandaran, Iran",
-    "duration": "2011 - 2018"
+    "duration": "2011 – 2018"
   }
 ]

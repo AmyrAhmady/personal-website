@@ -1,17 +1,17 @@
 [
   {
     "category": "Spoken Languages",
-    "items": ["Persian/Farsi", "English"]
+    "items": ["Persian (Farsi)", "English"]
   },
   {
     "category": "Programming Languages",
     "items": ["C/C++", "JavaScript/TypeScript", "Rust", "C#", "HTML", "CSS"]
   },
   {
-    "category": "Frameworks and Development Tools",
+    "category": "Frameworks & Tools",
     "items": [
       "React",
-      "React-Native",
+      "React Native",
       "Git",
       "GitHub",
       "Express.js",
@@ -24,14 +24,14 @@
   },
   {
     "category": "Operating Systems",
-    "items": ["Windows", "MacOS", "Ubuntu"]
+    "items": ["Windows", "macOS", "Linux Based OS's"]
   },
   {
     "category": "Databases",
     "items": ["MongoDB", "MySQL", "PostgreSQL", "SQLite"]
   },
   {
-    "category": "Others",
+    "category": "Other Skills",
     "items": ["CI/CD", "Command Line", "Reverse Engineering"]
   }
 ]

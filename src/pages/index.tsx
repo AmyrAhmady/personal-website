@@ -111,7 +111,7 @@ const Home = () => {
               © Amyr (iAmir) Ahmady
             </a>
             &nbsp;|&nbsp;
-            2022
+            2025
             &nbsp;|&nbsp;
             <a
               style={linkStyle}
